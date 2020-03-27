@@ -1,0 +1,19 @@
+digraph {
+splines="line";
+rankdir = TB;
+node [shape=plain, height=0.5, width=1.5, fontsize=25];
+graph[dpi=75];
+
+N [label=<
+<table border="0" cellborder="1" cellpadding="12">
+  <tr><td>Estados AFN</td><td>Estado AFD</td><td>c</td><td>d</td><td>a</td><td>b</td></tr>
+  <tr><td>5 4 7 8 0 </td><td>S0</td><td>S1</td><td> - </td><td>S2</td><td>S3</td></tr>
+  <tr><td>11 </td><td>S1</td><td> - </td><td>S4</td><td> - </td><td> - </td></tr>
+  <tr><td>12 </td><td>S2</td><td> - </td><td> - </td><td> - </td><td>S5</td></tr>
+  <tr><td>3 </td><td>S3</td><td>S6</td><td> - </td><td> - </td><td> - </td></tr>
+  <tr><td>6 4 5 7 8 9 </td><td>S4</td><td>S1</td><td> - </td><td>S2</td><td>S3</td></tr>
+  <tr><td>6 4 5 7 8 10 </td><td>S5</td><td>S1</td><td> - </td><td>S2</td><td>S3</td></tr>
+  <tr><td>13 2 </td><td>S6</td><td> - </td><td>S7</td><td> - </td><td> - </td></tr>
+  <tr><td>1 13 14 </td><td>S7</td><td> - </td><td>S7</td><td> - </td><td> - </td></tr>
+</table>>];
+}
